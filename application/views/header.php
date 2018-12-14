@@ -4,8 +4,8 @@
   <meta charset="utf-8"> 
   <title><?php echo $pageTitle; ?></title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  <meta content="" name="keywords" content="3PL Logistics, Inland Continer Depot, Warehousing, Air Cargo Complex, Integrated logistics, Industrial Shed,logistics companies in pune">
+  <meta content="" name="description" content="Looking for logistics companies in Pune? RCPL is among the best logistics companies in Pune. Contact us for logistics services in Pune.">
 
   <!-- Favicons -->
   <link href="<?php echo base_url() ?>assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon" rel="icon">

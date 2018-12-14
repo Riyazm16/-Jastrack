@@ -23,7 +23,7 @@
 								<!-- Brand -->
 								<a class="navbar-brand page-scroll sticky-logo" href="index.html">
 									<!-- <h1><span>e</span>Business</h1> -->
-									<!-- <h1><?php echo COMPONY_NAME;?></h1> -->
+									 <h1><?php echo COMPONY_NAME;?></h1> 
 									<!-- Uncomment below if you prefer to use an image logo -->
 									<img src="<?php echo base_url() ?>assets/img/logo.png" alt="" title="">
 								</a>
@@ -94,7 +94,9 @@
 								</div>
 								<!-- layer 2 -->
 								<div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
-									<h1 class="title2">To be the preferred international logistics service company by creating long term relationships with competent partners and satisfying the needs of our customers.</h1>
+									<h1 class="title2 hidden-xs">To be the preferred international logistics service company by creating long term relationships with competent partners and satisfying the needs of our customers.</h1>
+
+									<h1 class="title2 visible-xs">Preferred international logistics service company</h1>
 								</div>
 								<!-- layer 3 -->
 								<div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
@@ -119,7 +121,8 @@
 								</div>
 								<!-- layer 2 -->
 								<div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
-									<h1 class="title2">We will contribute to the success of our customers by working in partnership with them to facilitate the movement of their freight effectively and efficiently, keeping them informed at all times.</h1>
+									<h1 class="title2 hidden-xs">We will contribute to the success of our customers by working in partnership with them to facilitate the movement of their freight effectively and efficiently, keeping them informed at all times.</h1>
+									<h1 class="title2 visible-xs">Contribute to the success of our customers</h1>
 								</div>
 								<!-- layer 3 -->
 								<div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
@@ -144,7 +147,9 @@
 								</div>
 								<!-- layer 2 -->
 								<div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
-									<h1 class="title2">To direct the processes related to the logistics of supply of goods and services in Jastrack companies, aiming at sustainable development, preservation of corporate integrity and efficiency in the acquisition and administration of goods and services. </h1>
+									<h1 class="title2 hidden-xs">To direct the processes related to the logistics of supply of goods and services in Jastrack companies, aiming at sustainable development, preservation of corporate integrity and efficiency in the acquisition and administration of goods and services. </h1>
+
+									<h1 class="title2 visible-xs">Logistics of supply of goods and services</h1>
 								</div>
 								<!-- layer 3 -->
 								<div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
@@ -351,7 +356,7 @@
 	<!-- End Wellcome Area -->
 
 	<!-- Start team Area -->
-	<div id="team" class="our-team-area area-padding bak-2">
+	<div id="team" class="our-team-area area-padding bak-2 hidden-xs">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12">
@@ -363,7 +368,7 @@
 			<div class="row">
 				<div class="team-top">
 					<div class="col-md-6 col-sm-6 col-xs-12">
-						<div class="single-team-member pull-right"">
+						<div class="single-team-member pull-right">
 							<div class="team-img">
 								<a href="#">
 									<img src="<?php echo base_url() ?>assets/img/team/javid_mulani.jpg" alt="">
@@ -381,7 +386,67 @@
 					</div>
 					<!-- End column -->
 					<div class="col-md-6 col-sm-6 col-xs-12">
-						<div class="single-team-member pull-left"">
+						<div class="single-team-member  pull-left">
+							<div class="team-img">
+								<a href="#">
+									<img class="team2" src="<?php echo base_url() ?>assets/img/team/Sadanand_math.jpg" alt="">
+								</a>
+								<div class="team-social-icon text-center">
+									<ul>
+										<li>
+											Mr. Sadanand Math, the Executive Director of the Company, has most decades of experience in the supply chain sector like Transportation, 3PL Logistics, and Warehouse Operations.
+										</li>
+										<li>
+											Besides this, Mr. Math is an well-known and 18+ years vast experience in Logistics service industries.
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="team-content text-center">
+								<h4>
+								Sadanand Math </h4>
+								<p>Executive Director</p>
+							</div>
+						</div>
+					</div>
+					<!-- End column -->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<div id="team" class="our-team-area area-padding bak-2 visible-xs">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="section-headline text-center">
+						<h2>Our Team</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="team-top">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="single-team-member" style="width: 100%;">
+							<div class="team-img">
+								<a href="#">
+									<img src="<?php echo base_url() ?>assets/img/team/javid_mulani.jpg" alt="">
+								</a>
+								<div class="team-social-icon text-center">
+									<p>Mr. Javid Mulani, the Executive Director of the Company, has most decades of experience in the supply chain sector like 3PL Logistics, and Warehouse Operations. Besides this, Mr. Javid is an well-known and 15+ years vast experience in Logistics service industries.
+									</p>
+								</div>
+							</div>
+							<div class="team-content text-center">
+								<h4>Javid Mulani</h4>
+								<p>Executive Director</p>
+							</div>
+						</div>
+					</div>
+					<!-- End column -->
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="single-team-member " style="width: 100%;">
 							<div class="team-img">
 								<a href="#">
 									<img class="team2" src="<?php echo base_url() ?>assets/img/team/Sadanand_math.jpg" alt="">
@@ -652,7 +717,7 @@
 						<div class="form contact-form">
 							<div id="sendmessage">Your message has been sent. Thank you!</div>
 							<div id="errormessage"></div>
-							<form action="" method="post" role="form" class="contactForm">
+							<form action="<?php echo base_url().'index.php/home/email'?>" method="post" role="form" class="contactForm">
 								<div class="form-group">
 									<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
 									<div class="validation"></div>

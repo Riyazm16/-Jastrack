@@ -2,6 +2,11 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Home extends CI_Controller {
+	public function __construct() {
+		parent::__construct();
+
+		$this->load->library('Notification');
+	}
 
 	/**
 	 * Index Page for this controller.
@@ -26,5 +31,36 @@ class Home extends CI_Controller {
 
 		$data['pageTitle'] = 'JASTRACK LOGISTICS SERVICES PVT LTD';
 		$this->load->view('index',$data);
+	}
+
+	public function email(){
+		// echo "string";die;
+		$name = $this->input->post('name');
+		$email = $this->input->post('email');
+		$contact = $this->input->post('contact');
+		$subject = $this->input->post('subject');
+		$userMsg = $this->input->post('message');
+
+		$validateData = array($name, $email, $contact, $subject,$userMsg);
+		$emailData = array(
+			'name' => $name,
+			'email' => $email,
+			'contact' => $contact,
+			'msg' => $userMsg,
+		);
+// print_r($validateData);die;
+		if (array_filter($validateData)) {
+			try {
+				// die;
+				$this->notification->sendNotification('Thank you', $emailData);
+				$this->notification->sendNotificationAdmin('JASTRACK: New Enquiry', $emailData);
+				// $this->session->set_flashdata('succees', '1');
+				echo "OK";
+			} catch (Exception $ex) {
+				echo "fail";
+			}
+		} else {
+			echo "fail";
+		}
 	}
 }

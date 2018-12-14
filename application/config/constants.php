@@ -90,7 +90,12 @@ defined('COMPONY_NAME_FULL')        OR define('COMPONY_NAME_FULL', 'JASTRACK LOG
 
 defined('COMPONY_CONTACT')        OR define('COMPONY_CONTACT', '+91 9595360165'); // no errors
 defined('COMPONY_EMAIL')        OR define('COMPONY_EMAIL', 'sales.jastrack@outlook.com');
+// defined('COMPONY_EMAIL')        OR define('COMPONY_EMAIL', 'riyajmulla16296@gmail.com');
+
 defined('COMPONY_SITE')        OR define('COMPONY_SITE', 'http://www.jastracklogistics.com');
+
+defined('SENDERMAIL') OR define('SENDERMAIL', 'clientsolutions12345@gmail.com');
+defined('SENDERPASS') OR define('SENDERPASS', 'Test@123');
  // no errors
 
 
